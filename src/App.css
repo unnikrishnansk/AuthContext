@@ -1,38 +1,128 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.light{
+  background-color: white;
+  color: black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.dark{
+  background-color: black;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar{
+  /* border: 1px solid red; */
+  height: 80px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.leftnavbar{
+  /* border: 1px solid blue; */
+  height: 80px;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.rightnavbar{
+  /* border: 1px solid black; */
+  height: 80px;
+  width: 30%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.startorder{
+  /* border: 1px solid green; */
+  height: 80px;
+  width: 100%;
+  background-color: violet;
+  display: flex;
+}
+
+.startorderleft{
+  /* border: 1px solid blue; */
+  width: 500px;
+  margin-left: 20%;
+  align-items: center;
+  text-align: center;
+  font-weight: bold;
+}
+
+.startorderbttn{
+  width: 150px;
+  height: 50px;
+  align-items: center;
+  margin-top: 15px;
+  border-radius: 25px;
+  background-color: rgb(243, 54, 54);
+  color: white;
+  font-weight: bold;
+}
+
+.welcome{
+  /* border: 1px solid red; */
+  height: 100px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.heading{
+  /* border: 1px solid green; */
+  height: 60px;
+  width: 400px;
+  margin-left: 60px;
+  text-align: center;
+}
+
+.meals{
+  display: flex;
+}
+
+.line{
+  width: 850px;
+  margin-top: 30px;
+}
+
+.mainimage{
+  /* border: 1px solid red; */
+  height: 300px;
+  width: 1000px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.mainimageinside{
+  height: 200px;
+  width: 200px;
+  margin-top: 30px;
+}
+
+.image{
+  height: 200px;
+  width: 200px;
+}
+
+.menuhead{
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.togglebttn{
+  height: 30px;
+  width: 150px;
+  border-radius: 10px;
+  background-color: aqua;
+  font-weight: bold;
 }
